@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="./css/web.css" />
+<script src="js/jisuanqi.js"></script>
+<title>web</title>
+</head>
+<body>
+<a class="a1" href="#">换肤</a> 
+<div><a class ="a2" href="#" onClick="ShowLoginBox()">登录 |  注册</a></div>
+<!--登录界面-->
+<div id="dloginbox">
+  <div class="ditem">
+    <input type="text" id="txtUserName" placeholder="请输入用户名" />
+  </div>
+  <div class="ditem">
+    <input type="password" id="txtPwd" placeholder="请输入密码" />
+  </div>
+  <div class="ditem">
+    <div class="dcheckcode">
+      <input type="text" id="txtCheckCode" placeholder="请输入验证码" />
+    </div>
+    <div class="codeimg"><img src="" onClick="RefreshCkc()" id="imgcheckcode" /></div>
+  </div>
+  <div class="ditem" id="dlogin"><a href="javascript:;" onClick="Login()">登录</a></div>
+</div>
+<!--登录界面-->
+<div class="heitiao"></div>
+<div class="side1"></div>
+<div class="head">
+  <div class="menu">
+    <div class="title">
+      <p class="p1"></p>
+      <p class="p2"></p>
+    </div>
+    <div class="bg">
+      <div class="bgcon"><img class="big" src="image/bg0s.jpg"> <img src="image/bg1s.jpg"> <img src="image/bg2s.jpg"> <img src="image/bg3s.jpg"> <img src="image/bg4s.jpg"> <img src="image/bg5s.jpg"> <img class="big" src="image/bg6s.jpg"> <img src="image/bg7s.jpg"> <img src="image/bg8s.jpg"> <img class="last" src="image/bg9s.jpg"> <img class="last" src="image/bg10s.jpg"> <img class="last" src="image/bg11s.jpg"></div>
+      <div class="by1"></div>
+    </div>
+  </div>
+</div>
+<div class="side">
+  <ul id="ul1">
+    <li><img src="image/music.png" class="img"/></li>
+    <li><img src="image/huaban.png" class="img"/></li>
+    <li><img src="image/jisuanqi.png" class="img"/></li>
+    <li><img src="image/baidu.png" class="img"/></li>
+    <li><img src="image/ditu.png" class="img"/></li>
+  </ul>
+</div>
+<ul class="icon_1" style="opacity:1; position:absolute; left:200px;">
+  <li><img src="image/jisuanqi.jpg" /></li>
+  <li><img src="image/didi.jpg" /></li>
+  <li><img src="image/ditu.jpg" /></li>
+  <li><img src="image/qidian.jpg" /></li>
+</ul>
+<ul class="icon_1">
+  <li><img src="image/ditu.jpg" /></li>
+  <li><img src="image/didi.jpg" /></li>
+  <li><img src="image/ditu.jpg" /></li>
+  <li><img src="image/qidian.jpg" /></li>
+</ul>
+<ul class="icon_1">
+  <li><img src="image/didi.jpg" /></li>
+  <li><img src="image/didi.jpg" /></li>
+  <li><img src="image/ditu.jpg" /></li>
+  <li><img src="image/qidian.jpg" /></li>
+</ul>
+<ul class="icon_1">
+  <li><img src="image/qidian.jpg" /></li>
+  <li><img src="image/didi.jpg" /></li>
+  <li><img src="image/ditu.jpg" /></li>
+  <li><img src="image/qidian.jpg" /></li>
+</ul>
+<div class="nav">
+  <ul id="ul2">
+    <li id="bg_red"></li>
+  </ul>
+  <ul id="ul3">
+    <li><a href="javascript:;">首页</a></li>
+    <li><a href="avascript:;">官网</a></li>
+    <li><a href="avascript:;">课程</a></li>
+    <li><a href="avascript:;">视频</a></li>
+  </ul>
+</div>
+<div class="show">
+  <div class="close" ><span>×</span></div>
+  <div class="music_img"><img src="image/music-con.jpg" /></div>
+  <audio  controls="controls "  id = "music1" src="F:\js运动案例\web网站\费玉清 - 一剪梅.mp3"></audio>
+  <div id="text1">
+    <div id="music_con"> 真情像草原广阔<br />
+      层层风雨不能阻隔<br />
+      总有云开日出时候<br />
+      万丈阳光照耀你我<br />
+      真情像梅花开过<br />
+      冷冷冰雪不能掩没<br />
+      就在最冷<br />
+      枝头绽放<br />
+      看见春天走向你我<br />
+      雪花飘飘北风啸啸<br />
+      天地一片苍茫<br />
+      一剪寒梅<br />
+      傲立雪中<br />
+      只为伊人飘香<br />
+      爱我所爱无怨无悔<br />
+      此情<br />
+      长留<br />
+      心间<br />
+      雪花飘飘北风啸啸<br />
+      天地一片苍茫<br />
+      一剪寒梅<br />
+      傲立雪中<br />
+      只为伊人飘香<br />
+      爱我所爱无怨无悔<br />
+      此情<br />
+      长留<br />
+      心间<br />
+      真情像草原广阔<br />
+      层层风雨不能阻隔<br />
+      总有云开日出时候<br />
+      万丈阳光照耀你我<br />
+      真情像梅花开过<br />
+      冷冷冰雪不能掩没<br />
+      就在最冷<br />
+      枝头绽放<br />
+      看见春天走向你我<br />
+      雪花飘飘北风啸啸<br />
+      天地一片苍茫<br />
+      一剪寒梅<br />
+      傲立雪中<br />
+      只为伊人飘香<br />
+      爱我所爱无怨无悔<br />
+      此情<br />
+      长留<br />
+      心间<br />
+      雪花飘飘北风啸啸<br />
+      天地一片苍茫<br />
+      一剪寒梅<br />
+      傲立雪中<br />
+      只为伊人飘香<br />
+      爱我所爱无怨无悔<br />
+      此情<br />
+      长留<br />
+      心间<br />
+    </div>
+  </div>
+</div>
+<div class="show" style="background: #00FFFF">
+  <div class="close" ><span>×</span></div>
+  <canvas id="canvas"></canvas>
+  <div id="controller">
+    <div id="dclear"><a href="javascript:;" id="btnclear">清除</a></div>
+    <div id="dcolors">
+      <div class="dcolor dblack" data-color="black"></div>
+      <div class="dcolor dred" data-color="red"></div>
+      <div class="dcolor dgreen" data-color="green"></div>
+      <div class="dcolor dblue" data-color="blue"></div>
+      <div class="dcolor dpink" data-color="pink"></div>
+    </div>
+  </div>
+</div>
+<div class="show" style="background:#CCCC99">
+  <div class="close" ><span>×</span></div>
+  <!---->
+  <table class="calculator">
+    <tr>
+      <td colspan="5" align="center" ><div style="font-size:14px;color:#333;background-color: #E0CC98;padding:3px;text-align:center;font-weight:bold;border:1px solid #aaa;">计算器</div></td>
+    </tr>
+    <tr>
+      <td colspan="5"><input name="jg" id="jg" type="text"  onKeyup="checkkey()"/></td>
+    </tr>
+    <tr>
+      <td colspan="2" aling="right"><div id="sjxs" name="sjxs" style="text-align:center;height:20px;width:90px;background-color:#666;color:#fff;"></div></td>
+      <td colspan="2" align="right"><input type="button" name="cls" value="Backspace" onclick="shanchu()" /></td>
+      <td><input type="button" name="qc" id="qc" value="清除" onclick="qc()"/></td>
+    </tr>
+    <tr>
+      <td><input type="button" name="s1" id="s1" value=" 1 " onclick="shu(1)" onkeyup="shu(1)"/></td>
+      <td><input type="button" name="s2"  id="s2"value=" 2 "  onclick="shu(2)"/></td>
+      <td><input type="button" name="s2" id="s2" value=" 3 " onclick="shu(3)"/></td>
+      <td><label>
+        <input type="button" name="jian2" id="jian2" value=" + " onclick='yunsuan(&quot;+&quot;)'/>
+        </label></td>
+      <td><input type="button" name="shijian" id="shijian" value="时间" onclick="timeshow()" /></td>
+    </tr>
+    <tr>
+      <td><input type="button" name="s4" id="s4"value=" 4 " onclick="shu(4)"/></td>
+      <td><input type="button" name="s5" id="s5" value=" 5 " onclick="shu(5)"/></td>
+      <td><input type="button" name="s6" id="s6" value=" 6 " onclick="shu(6)"/></td>
+      <td><input type="button" name="jian3"  id="jian"value=" - " onclick='yunsuan(&quot;-&quot;)' /></td>
+      <td><input type="button" name="pf" id="pf" value="平方" onclick="pf()"/></td>
+    </tr>
+    <tr>
+      <td><input type="button" name="s7" id="s7" value=" 7 " onclick="shu(7)"/></td>
+      <td><input type="button" name="s8" id="s8" value=" 8 " onclick="shu(8)"/></td>
+      <td><input type="button" name="s9" id="s9" value=" 9 " onclick="shu(9)" /></td>
+      <td><input type="button" name="cheng" id="cheng" value=" X " onclick='yunsuan(&quot;x&quot;)'/></td>
+      <td><input type="button" name="kf" id="kf" value="开方" onclick="kf()"/></td>
+    </tr>
+    <tr>
+      <td><input type="button" name="s0" id="s0" value=" 0 " onclick="shu(0)" /></td>
+      <td><input type="button" name="xs" id="xs" value=" . " onclick=shu(".")></td>
+      <td><input type="button" name="deng" id="deng" value=" = " onclick="dengyu()"/></td>
+      <td><input type="button" name="chu"  id="chu" value=" / " onclick='yunsuan(&quot;/&quot;)'/></td>
+      <td><input type="button" name="jc" value=" n!" onclick="jc()" ></td>
+    </tr>
+  </table>
+  <!---->
+</div>
+<div class="show" style="background:#FFFFFF">
+  <div class="close" ><span>×</span></div>
+  <IFRAME name="baidu" width=800px height=450px frameborder=0 scrolling=no src="https://www.baidu.com/"></IFRAME>
+</div>
+<div class="show">
+  <div class="close" ><span>×</span></div>
+  <IFRAME name="baidu" width=800px height=450px frameborder=0 scrolling=no src="http://map.qq.com/"></IFRAME>
+</div>
+<script src="./js/jquery-3.1.1.min.js" ></script>
+<script src="./js/move2.js"></script>
+<script src="js/demo.js"></script>
+<script src="layer/layer.js"></script>
+<script src="js/denglu.js"></script>
+<script src="js/chaxunhanshu.js"></script>
+<script src="js/huanpifu.js"></script>
+<script src="js/side.js"></script>
+<script src="js/xuehua.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/geci.js"></script>
+</body>
+</html>

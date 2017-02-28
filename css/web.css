@@ -1,0 +1,117 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+li { list-style:none;}
+ul{ margin:0; padding:0;}
+.contain { width:100%; height:100%;  position:absolute;}
+.a1 { text-decoration:none;color:#fff; margin-top:10px; display:block; margin-left:18%; font-size:15px; position:absolute; float:left;}
+.a2 {text-decoration:none;color:#fff; float:right; margin-top:10px; margin-right:20px;}
+body { background:url(image/bg0.jpg) no-repeat;}
+.heitiao { width:100%; height:35px; background: #000000;}
+.head { width:100%; height:0px; background:#FFFFFF; position:fixed; left:0; top:0; border-bottom:1px solid #e3e3e3; overflow:hidden; z-index:100000;}
+.title { width:911px; height:45px; margin:0 auto;}
+.menu { width:100%; height:45px; border-bottom:1px solid #e3e3e3; z-index:100000;}	
+.p1{ width:861px; height:45px; background: url(../image/p1.png); float:left; cursor:pointer;}
+.p2 { width:50px; height:45px; background:url(../image/sp.png); float:right; cursor:pointer;}	 
+.bg { width:911px; height:205px; margin:25px auto;}
+.bgcon { width:590px; height:190px; float:left;}
+.bgcon img { width:97px; height:59px; display:block; margin-right:1px; margin-bottom:1px; float:left;}
+.bgcon .big {width:195px; height:119px;}
+.bgcon .last{ position: relative; top:-60px; }
+.by1 { width:264px; height:180px; float:right; background:url(image/yl.png); background-size:294px;} 
+ 
+.side1{ width:60px; height:500px; position: absolute; left:0; top:70px; background: #CCCCCC; filter:alpha(opacity=40);opacity:0.4; }     
+.side{ width:60px; height:500px; position: absolute; left:0; top:70px; }  
+.side ul { width:35px; height:400px; margin:0px auto; padding-top:40px; position:relative;}
+.side ul li{ text-decoration:none; margin:0 auto; margin-bottom:55px;}
+.side ul li img { width:35px; height:35px;}
+
+
+.show { width:800px; height:450px; background:#000000; position: absolute; left:350px;; top:120px; display:none; border-radius:10px;}
+.close { width:40px; height:30px; background:#FFFFFF; position:absolute; right:0;font-size:30px; text-align:center; cursor:pointer;filter:alpha(opacity:0.5); opacity:0.5;}
+#text1 { width:250px; height:300px; border:1px solid  #CCCCCC; overflow:hidden; margin:50px auto; margin-left:450px; position: absolute; }
+#music_con { position: absolute; padding:4px; left:0; color:#999999; line-height:20px;}
+#music1 { position:absolute; bottom:50px; left:50px;}
+.music_img { position:absolute; left:70px; top:60px;}
+
+#ul3,#ul2{ width:400px; height:30px; position: absolute; margin:35px 200px;}
+#ul3 li{ float:left; width:100px; height:30px; line-height:30px;text-align:center;  color: #000000; font-family:"Courier New", Courier, monospace; font-weight:bold;}
+#ul3 li a {  width:100px; height:30px; line-height:30px;   text-align:center; color: #FFFFFF; display:block; z-index:10; text-decoration:none;}
+#bg_red{ width:100px; height:30px; overflow:hidden; background: #00CC33; border:none; position:absolute; top:0; left:0px; z-index:0; border-radius:5px;filter:alpha(opacity:0.5); opacity:0.5;}
+
+.icon_1 { width:150px; height:400px; opacity:0; position:absolute; top:150px; left:150px;}
+.icon_1 li { float:left; margin-right:20px; margin-bottom:50px; margin-top:16px; margin-left:10px;}
+.icon_1 li img{ width:45px; height:45px;}
+
+#canvas {margin: 0 auto; display: block;}
+#controller {margin: 0 auto; width: 400px; height: 50px; margin-top:10px;}
+#dclear { float: right;}
+.dcolor {  float: left;width: 30px; height: 30px; margin-right: 5px;}
+.dblack {background-color: black;}
+.dred {background-color: red;}
+.dgreen { background-color: green;}
+.dblue {background-color: blue;}
+
+.dpink { background-color: pink;}
+.sel {border:solid 4px #b312f3;}
+#div1{ position: relative; left:0px; border:1px solid #000;width:600px; height:140px; margin:20px auto; overflow:hidden;}
+#div1 ul { position:absolute; left:0; }
+#div1 ul li{ list-style:none; width:120px; height:140px; padding:10px; float:left;}
+#a11{ position:absolute; top:70px; left:30px;}
+#a22{ position:absolute; top:70px; left:730px;}
+
+table{empty-cells:show;border-collapse:collapse;border-spacing:0;}
+/* calculator */
+.calculator{text-align:center;background:#CCCC99;width:400px;margin:60px auto;}
+.calculator td{padding:5px;}
+.calculator input{font-size:14px;padding:5px 10px;cursor:pointer;}
+.calculator #jg{font-size:px;padding:3px;border:1px solid #888;width:96%;text-align:right;}
+
+#txtUserName, #txtPwd {
+    width: 350px;
+    height: 35px;
+}
+
+#txtCheckCode, #dcheckcode {
+    height: 35px;
+    width: 150px;
+}
+
+.dcheckcode {
+    float: left;
+    width: 150px;
+}
+
+.codeimg {
+    float: right;
+    height: 35px;
+    width: 100px;
+}
+
+.ditem {
+    width: 354px;
+    height: 37px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#dlogin {
+    clear: both;
+}
+
+    #dlogin a {
+        width: 354px;
+        height: 40px;
+        background-color: #1d6c9a;
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        font-size: 20px;
+    }
+
+#dloginbox {
+    display: none;
+}
+
+
+
